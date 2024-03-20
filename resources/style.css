@@ -1,0 +1,49 @@
+@font-face{
+	font-family: Monserrat;
+	src: url("Montserrat-VariableFont_wght.ttf");
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100vh;
+	background: url("header.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: Monserrat, tahoma;
+}
+
+main{
+	margin: auto;
+}
+
+h1{
+	color: #E2DBDB;
+	font-size: 3rem;
+}
+
+hr{
+	margin: 15px auto;
+	max-width: 65px;
+	border: 3px solid #F05F44; 
+	border-radius: 5px;
+	color: #F05F44;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn-startup{
+	padding: 1rem 2rem;
+	background-color: #F05F44;
+	border-color: #F05F44;
+	border-radius: 2rem;
+	font-size: 1.2em;
+}
+
+.btn-primary:hover{
+	background-color: #EE4B08;
+	border-color: #EE4B08;
+	border-width: 4px;
+}
